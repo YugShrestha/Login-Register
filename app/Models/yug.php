@@ -13,3 +13,4 @@ class yug extends Model
     protected $fillable = ['email', 'password'];
     use HasFactory;
 }
+asdasds
