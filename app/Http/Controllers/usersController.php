@@ -18,6 +18,7 @@ public function store(Request $request)
     ]);
 
     yug::create($fieldForms);
+    session()->flash('message', 'created sucessfully!');
 
     return redirect('/');
 }

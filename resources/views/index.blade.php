@@ -1,6 +1,7 @@
 
 <x-layout>
 <main class="login-form">
+<x-flash-msg />
     <div class="cotainer">
         <div class="row justify-content-center">
             <div class="col-md-4">
@@ -31,6 +32,7 @@
             </div>
         </div>
     </div>
+  
 
 </main>
 </x-layout>
